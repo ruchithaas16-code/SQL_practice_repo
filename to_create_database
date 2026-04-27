@@ -1,0 +1,10 @@
+Syntax:
+  CREATE DATABASE database_name;
+Example:
+  CREATE DATABASE Students;
+----------------------------------
+To use this database;
+Syntax: 
+  USE database_name;
+Example:
+  USE Stdents;
