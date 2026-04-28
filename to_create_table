@@ -1,0 +1,5 @@
+Syntax:
+  CREATE TABLE tabl_name(value1 datatype,value2 datatype...,);
+
+Example:
+  CREATE TABLE Students(SID INT PRIMARY KEY,Student_name VARCHAR(50),Semester INT);
