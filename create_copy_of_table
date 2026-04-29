@@ -1,0 +1,5 @@
+Syntax:
+  CREATE TABLE new_table LIKE existing_table;
+
+Example:
+  CREATE TABLE subject2 LIKE subject;
