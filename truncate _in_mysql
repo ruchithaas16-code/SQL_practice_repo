@@ -1,0 +1,9 @@
+Syntax:
+  TRUNCATE TABLE table_name;
+
+Example:
+  TRUNCATE TABLE Subjects;
+
+NOTE:
+  *It deletes only all the data in a table.
+  *It cannot be rolled back once executed.
