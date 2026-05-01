@@ -1,0 +1,7 @@
+Synatx:
+  ALTER TABLE table_name
+  ADD/MODIFY/DROP column column_name;
+
+Example:
+  ALTER TABLE Students
+  ADD column DID INT;
