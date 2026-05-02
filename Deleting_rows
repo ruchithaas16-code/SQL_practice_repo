@@ -1,0 +1,7 @@
+Synatx:
+  DELETE FROM table_name
+  WHERE Condition;
+
+Example:
+  DELETE FROM Students
+  WHERE SID = 1;
