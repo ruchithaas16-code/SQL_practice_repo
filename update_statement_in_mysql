@@ -1,0 +1,10 @@
+Syntax:
+  UPDATE table_name
+  SET Col1 = val1,
+  Col2 = val2,
+  WHERE Condition;
+
+Example:
+  UPDATE Students
+  SET Hours = 28,
+  WHERE SID = 1;
