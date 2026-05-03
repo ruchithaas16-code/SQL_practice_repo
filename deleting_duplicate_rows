@@ -1,0 +1,7 @@
+Syntax:
+  WITH DuplicateRows AS(
+  SELECT * ,ROW_NUMBER() OVER(PARTITION BY Col1,Col2 ORDER BY Col3) AS row_num
+  FROM table_name
+  )
+  DELETE FROM DuplicateRows
+  WHERE row_num>1;
