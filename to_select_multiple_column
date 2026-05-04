@@ -1,0 +1,5 @@
+Syntax:
+  SELECT Col1, Col2,...,Coln FROM table_name;
+
+Example:
+  SELECT SID, sname, Marks FROM Students;
