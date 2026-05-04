@@ -1,0 +1,7 @@
+Syntax:
+  SELECT * FROM table_name
+  WHERE condition;
+
+Example:
+  SELECT * FROM Students
+  WHERE Hours=40;
