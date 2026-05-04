@@ -1,0 +1,5 @@
+Syntax:
+  SELECT Column FROM table_name;
+
+Example:
+  SELECT SID FROM Students;
