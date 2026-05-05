@@ -1,0 +1,7 @@
+Syntax:
+  SELECT * FROM table_name
+  WHERE Condition;
+
+Example:
+   SELECT * FROM Results
+   WHERE SID=2;
