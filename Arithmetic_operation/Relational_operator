@@ -1,0 +1,9 @@
+Syntax:
+  SELECT Column_name 
+  FROM table_name
+  WHERE Column_name Symbol Value;
+
+Example:
+  SELECT Sname,Sub1 
+  FROM Results
+  WHERE Sub1 < 80;
