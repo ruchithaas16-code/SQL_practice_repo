@@ -1,0 +1,12 @@
+Syntax:
+  SELECT col1, col2
+  FROM table_name
+  ORDER BY col1;
+
+Example:
+  SELECT *
+  FROM Subjects
+  ORDER BY hours;
+
+NOTE:
+  *Use "DESC" for descending order.By default it sorts in ascending order
