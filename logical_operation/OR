@@ -1,0 +1,8 @@
+Syntax:
+  SELECT Column_name
+  FROM table_name
+  WHERE Condition;
+
+Example:
+  SELECT * FROM Results
+  WHERE Sub1>80 OR Sub3<90;
