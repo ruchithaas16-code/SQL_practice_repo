@@ -1,0 +1,8 @@
+Syntax:
+  left-shift : SELECT val << number_of_times;
+  right-shift: SELECT val >> number_of_times;
+
+  Example:
+    left-shift : SELECT 4 << 1;
+    right-shift: SELECT 5 >> 2;
+    
