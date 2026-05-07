@@ -1,0 +1,5 @@
+Syntax:
+  SELECT operator value;
+
+Example:
+  SELECT ~6;
