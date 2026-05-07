@@ -1,0 +1,5 @@
+Syntax:
+  SELECT val1 operator val2;
+
+Example:
+  SELECT 2 | 3;
