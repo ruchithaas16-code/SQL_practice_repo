@@ -1,0 +1,9 @@
+Syntax:
+  UPDATE table_name
+  SET column_name operator(+=,-=,*=,/=) value
+  WHERE Condition;
+
+Example:
+  UPDATE Students
+  SET sub1+=10
+  WHERE SID=1;
