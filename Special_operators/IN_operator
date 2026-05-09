@@ -1,0 +1,7 @@
+Syntax:
+  SELECT column_name FROM table_name
+  WHERE column_name IN Condition;
+
+Example:
+  SELECT * FROM Results
+  WHERE last_name IN ("Smith","william");
