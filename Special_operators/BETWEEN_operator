@@ -1,0 +1,7 @@
+Syntax:
+  SELECT Column_name FROM table_name
+  WHERE Col_name BETWEEN Condition;
+
+Example:
+  SELECT * FROM Results
+  WHERE Sub1 BETWEEN 80 AND 90;
