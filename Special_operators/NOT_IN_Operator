@@ -1,0 +1,7 @@
+Syntax:
+  SELECT Column_name FROM table_name
+  WHERE col_name NOT IN Condition;
+
+Example:
+  SELECT * FROM Students
+  WHERE sname NOT IN ("Bob","carl");
