@@ -1,0 +1,7 @@
+Syntax:
+  SELECT Col_name FROM table_name
+  WHERE Col_name NOT BETWEEN Condition;
+
+Example:
+  SELECT * FROM Results
+  WHERE Sub1 NOT BETWEEN 80 AND 90;
