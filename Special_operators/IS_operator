@@ -1,0 +1,7 @@
+Syntax:
+  SELECT Column_name FROM table_name 
+  WHERE Col_name IS NULL;
+
+Example:
+  SELECT * FROM Students
+  WHERE Semester IS NULL;
