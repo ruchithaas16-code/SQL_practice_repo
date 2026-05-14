@@ -1,0 +1,7 @@
+Syntax:
+  SELECT Column_names FROM table_name
+  WHERE col_name LIKE Pattern;
+
+Example:
+  SELECT * FROM Students
+  WHERE s_name LIKE "% N %";
