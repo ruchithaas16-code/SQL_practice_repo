@@ -1,0 +1,7 @@
+Syntax:
+  SELECT Columns_name FROM table_name
+  WHERE Col_name IS NOT Condition;
+
+Example:
+  SELECT * FROM Students
+  WHERE VALID IS NOT TRUE;
