@@ -1,0 +1,10 @@
+Synatx:
+  SELECT Column_name FROM table_name
+  WHERE Col_name NOT LIKE Pattern;
+
+Example:
+  SELECT * FROM Students
+  WHERE sname NOT LIKE "_N%";
+
+**Note: _ -> A Single Character
+        % -> Multiple Character
