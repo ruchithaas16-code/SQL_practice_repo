@@ -1,0 +1,7 @@
+Syntax:
+  SELECT Col_name FROM table_name
+  WHERE col_name IS NOT NULL;
+
+Example:
+  SELECT * FROM Students
+  WHERE valid IS NOT NULL;
