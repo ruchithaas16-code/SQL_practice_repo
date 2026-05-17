@@ -1,0 +1,6 @@
+Syntax:
+  SELECT LENGTH(Col_name) FROM table_name;
+
+Example:
+  SELECT LENGTH(Sname) AS Length_of_sname
+  FROM Students;
