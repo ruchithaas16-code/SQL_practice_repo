@@ -1,0 +1,5 @@
+Syntax:
+  SELECT UPPER(Column_name) FROM table_name;
+
+Example:
+  SELECT UPPER(Sname) FROM Students;
