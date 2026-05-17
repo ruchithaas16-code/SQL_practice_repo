@@ -1,0 +1,5 @@
+Syntax:
+  SELECT LOWER(Col_name) FROM table_name;
+
+Example:
+  SELECT LOWER(Sname) FROM Students;
