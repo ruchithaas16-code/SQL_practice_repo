@@ -1,0 +1,5 @@
+Syntax:
+  SELECT TRIM(Col_name) FROM table_name;
+
+Example:
+  SELECT TRIM(Sname) FRON Students;
