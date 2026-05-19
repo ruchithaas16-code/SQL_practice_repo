@@ -1,0 +1,5 @@
+Syntax:
+  SELECT ROUND(Value);
+
+Example:
+  SELECT ROUND(22/7);
