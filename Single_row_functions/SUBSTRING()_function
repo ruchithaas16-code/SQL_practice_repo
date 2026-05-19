@@ -1,0 +1,5 @@
+Syntax:
+  SELECT SUBSTRING(String);
+
+Example:
+  SELECT SUBSTRING("Hello,Good Morning Everyone");
