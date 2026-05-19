@@ -1,0 +1,5 @@
+Syntax:
+  SELECT CONCAT(Col_name1,Col_name2) FROM table_name;
+
+Example:
+  SELECT CONCAT(First_name,Last_name) FROM Students;
