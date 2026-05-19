@@ -1,0 +1,6 @@
+Synatx:
+  SELECT ABS(VALUE(S));
+
+Example:
+  SELECT ABS(22-55);
+  SELECT ABS(-33);
