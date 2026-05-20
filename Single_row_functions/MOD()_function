@@ -1,0 +1,5 @@
+Syntax:
+  SELECT MOD(Value);
+
+Example:
+  SELECT MOD(22,7);
