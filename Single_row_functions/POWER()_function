@@ -1,0 +1,5 @@
+Syntax:
+  SELECT POWER(base value,power value);
+
+Example:
+  SELECT POWER(2,3);
