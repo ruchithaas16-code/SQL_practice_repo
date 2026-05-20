@@ -1,0 +1,4 @@
+Syntax:
+  SELECT CURDATE();
+
+**It gives current date/Today's date**
