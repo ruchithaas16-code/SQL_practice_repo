@@ -1,0 +1,4 @@
+Syntax:
+  SELECT DATEADD();
+
+**It adds a specified interval to a date**
