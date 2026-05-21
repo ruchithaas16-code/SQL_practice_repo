@@ -1,0 +1,4 @@
+Syntax:
+  SELECT SYSDATE();
+
+**It gives current System Date and Time**
