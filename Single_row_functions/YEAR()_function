@@ -1,0 +1,5 @@
+Syntax:
+  SELECT YEAR(Column_name) FROM table_name;
+
+Example:
+  SELECT YEAR(sales_date) FROM Sales;
