@@ -1,0 +1,4 @@
+Syntax:
+  SELECT DAY();
+
+**It returns the Day part of a Date**
