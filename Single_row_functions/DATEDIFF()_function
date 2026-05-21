@@ -1,0 +1,4 @@
+Syntax:
+  SELECT DATEDIFF();
+
+**It calculates Difference between two Dates in terms of Date**
