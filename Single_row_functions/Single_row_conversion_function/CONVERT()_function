@@ -1,0 +1,5 @@
+Syntax:
+  SELECT FUNCTION( First arg AS Target Datatype);
+
+Example:
+  SELECT CONVERT('2025-04-14' AS DATE);
