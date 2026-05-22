@@ -1,0 +1,5 @@
+Syntax:
+  SELECT FUNCTION(First arg AS Target Datatype);
+
+Example:
+  SELECT CAST('2025-04-17' AS DATE);
