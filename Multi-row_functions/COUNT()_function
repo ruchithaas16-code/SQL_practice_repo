@@ -1,0 +1,5 @@
+Syntax:
+  SELECT COUNT(col_name) FROM table_name;
+
+Example:
+  SELECT COUNT(Sub1) FROM Subjects;
