@@ -1,0 +1,5 @@
+Syntax:
+  SELECT AVG(Col_name) FROM table_name;
+
+Example:
+  SELECT AVG(Sub1) FROM Students;
