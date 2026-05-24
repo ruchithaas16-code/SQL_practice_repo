@@ -1,0 +1,9 @@
+Syntax:
+  SELECT Column,SUM(Column_name) 
+  FROM Table_name
+  GROUP BY Column;
+
+Example:
+  SELECT Sub_name,SUM(Sub1)
+  FROM Subjects
+  GROUP BY Sub_name;
