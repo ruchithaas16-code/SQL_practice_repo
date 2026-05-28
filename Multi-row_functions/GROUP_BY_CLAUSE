@@ -1,0 +1,9 @@
+Syntax:
+  SELECT Col_name,Function(Col_name) AS New_name
+  FROM table_name
+  GROUP BY Col_name;
+
+Example:
+  SELECT region, SUM(amount) AS Total_amount
+  FROM Sales
+  GROUP BY region;
