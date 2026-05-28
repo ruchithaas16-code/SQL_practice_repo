@@ -1,0 +1,5 @@
+Syntax:
+  SELECT MIN(Col_name) FROM table_name;
+
+Example:
+  SELECT MIN(Hours) FROM Subjects;
