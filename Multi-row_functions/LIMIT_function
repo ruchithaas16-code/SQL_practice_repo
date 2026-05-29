@@ -1,0 +1,7 @@
+Syntax:
+   SELECT Col_name FROM table_name
+   LIMIT Condition;
+
+Example:
+   SELECT * FROM Subjects 
+   LIMIT 3;
