@@ -1,0 +1,12 @@
+Syntax:
+  SELECT Col_name, FUNCTION_NAME(Col_name) AS     new_name
+  FROM table_name
+  GROUP BY Col_name
+  HAVING Condition;
+
+Example:
+  SELECT region,SUM(amount) AS total_sales
+  FROM Sales
+  GROUP BY region 
+  HAVING SUM(amount) > 1000;
+  
