@@ -1,0 +1,13 @@
+Syntax:
+  SELECT Col_name FROM table_name
+  WHERE Col_name IN(
+    SELECT Col_name FROM table_name
+    WHERE Condition
+  );
+
+Example:
+  SELECT * FROM Sales
+  WHERE region IN(
+    SELECT region FROM Sales
+    WHERE Salesperson = "Dave"
+  );
