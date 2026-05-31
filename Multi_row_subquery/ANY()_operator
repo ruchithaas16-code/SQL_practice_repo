@@ -1,0 +1,13 @@
+Syntax:
+  SELECT Col_name FROM table_name
+  WHERE Col_name Condition ANY(
+    SELECT Col_name FROM table_name
+    WHERE Condition 
+  );
+
+Example:
+  SELECT * FROM Sales 
+  WHERE amount > ANY(
+    SELECT amount FROM Sales 
+    WHERE region = "south"
+  );
