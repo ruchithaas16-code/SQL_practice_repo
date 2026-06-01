@@ -1,0 +1,9 @@
+Example:
+  SELECT 
+      Sales.Salesperson,
+      Sales.region,
+      Sales.amount,
+      region.manager
+  FROM Sales
+  INNER JOIN regions
+  ON Sales.region = region.region_code;
