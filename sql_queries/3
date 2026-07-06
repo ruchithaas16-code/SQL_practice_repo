@@ -1,0 +1,7 @@
+Question:Query the list of city names starting and ending with vowels from station.Result should not contains duplicate.
+
+Query:
+  SELECT city
+  FROM station
+  WHERE city REGEXP '^[aeiou]'
+    AND city REGEXP '[aeiou]$';
