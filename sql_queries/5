@@ -1,0 +1,7 @@
+Question: To list of employee names by alphabetical order.
+
+Query:
+  SELECT NAME 
+  FROM Employee
+  ORDER BY NAME ASC;
+  
