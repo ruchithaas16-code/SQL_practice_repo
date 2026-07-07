@@ -1,1 +1,6 @@
+Question:Query the list of city names do not starting with vowels from station.Result should not contains duplicate.
 
+Query:
+  SELECT city
+  FROM station
+  WHERE city NOT REGEXP '^[aeiou]';
