@@ -1,0 +1,6 @@
+Question:Write a query to list name and salary of employees with deduction of 10%.
+
+Query:
+  SEELECT NAME,SALARY,DEDUCTION
+  FROM EMPLOYEES
+  WHERE DEDUCTION = SALARY -(SALARY*0.1);
