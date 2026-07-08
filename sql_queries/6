@@ -1,0 +1,11 @@
+Question:To find type of a triangle
+
+Query:
+  SELECT 
+    CASE 
+      WHEN A+B<=C OR A+C<=B OR B+C<=A THEN 'NOT A TRIANGLE'
+      WHEN A=B AND B=C THEN 'EQUILATERAL TRIANGLE'
+      WHEN A=B OR B=C OR A=C THEN 'ISOSCELES TRIANGLE'
+      ELSE SCALENE
+    END
+  FROM TRIANGLES;
