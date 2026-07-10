@@ -1,0 +1,6 @@
+Question: Write a query to employee name who joined the company on july 6 2026.
+
+Query:
+  SELECT Name 
+  FROM Employee
+  WHERE Join_date='2026-07-06';
