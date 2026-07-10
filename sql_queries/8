@@ -1,0 +1,14 @@
+Question: To list name of students with grade and marks.
+
+Query:
+  SELECT 
+    IF(G.Grade < 8 ,NULL , S.Name),
+    G.Grade,
+    S.Marks
+  FROM STUDENTS S
+  JOIN GRADES G
+  ON S.Marks BETWEEN G.MIN_MARKS AND MAX_MARKS
+  ORDER BY 
+    G.Grade DESC
+    S.Name ASC
+    S.Marks ASC;
