@@ -1,0 +1,6 @@
+Question: Write a query to list employee names who joined the company between 1986 and 2001.
+
+Query:
+  SELECT ename
+  FROM Employee
+  WHERE Join_date IS BETWEEN '1986-01-01' AND '2001-01-01';
