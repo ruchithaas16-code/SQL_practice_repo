@@ -1,0 +1,6 @@
+Question: Display unique employee names.
+
+Query:
+  SELECT DISTINCT ename
+  FROM Employee;
+  
