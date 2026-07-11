@@ -1,0 +1,5 @@
+Question: Display employee name with annual salary.
+
+Query:
+  SELECT ename,salary*12
+  FROM employee;
