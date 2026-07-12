@@ -1,0 +1,5 @@
+Question: Count the number of employees.
+
+Query:
+  SELECT COUNT(ename)
+  FROM Employee;
