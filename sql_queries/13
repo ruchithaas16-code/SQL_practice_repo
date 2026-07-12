@@ -1,0 +1,5 @@
+Question: Display salary coulumn as annual salary.
+
+Query:
+  SELECT Salary*12 AS Annual_salary
+  FROM Employee;
