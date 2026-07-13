@@ -1,0 +1,5 @@
+Question: Find the total commission paid for each employee.
+
+Query:
+  SELECT SUM(ename) AS Total_commission
+  FROM Employee;
