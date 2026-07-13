@@ -1,0 +1,6 @@
+Question: Name of the employee who doesn't get commission.
+
+Query:
+  SELECT ename
+  FROM Employee
+  WHERE commission IS NULL;
