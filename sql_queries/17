@@ -1,0 +1,6 @@
+Question: Write a query name ,salary and commission of the employee if the employee doesn't get commission but get salary.
+
+Query:
+  SELECT Name,Salary,Commission
+  FROM Employee
+  WHERE Commission IS NULL AND Salary IS NOT NULL;
