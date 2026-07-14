@@ -1,0 +1,6 @@
+Question: Write a query details of the employee starts with S.
+
+Query: 
+  SELECT *
+  FROM Employee
+  WHERE ename REGEXP '^[S]';
